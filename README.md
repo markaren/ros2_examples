@@ -5,6 +5,16 @@ A top-level CMakeLists.txt is provided that allows opening the examples in CLion
 which adds code-completion and insights for both the Python and C++ source. 
 To make Python work, you need to assign an interpreter. On Windows you should use the one that comes with ROS2 (`C:\pixi_ws\.pixi\envs\default\python.exe`).
 
+In order for CLion to find ROS2 libraries and utilities, it must be started from a sourced terminal.
+
+Windows example:
+```bash
+cd C:\pixi_ws
+pixi shell
+.\ros2-windows\local_setup.bat
+"C:\Users\your_windowss_user\AppData\Local\Programs\CLion\bin\clion.bat"
+```
+
 A `colcon_build` target is also added, which may be used to build the ROS2 packages.
 
 ## Running the examples
