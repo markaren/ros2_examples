@@ -1,0 +1,7 @@
+.idea
+cmake-build-*
+build
+log
+install
+.DS_Store
+__pycache__
