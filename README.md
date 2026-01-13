@@ -1,6 +1,6 @@
 # ROS2 examples
 
-This repo contains ROS2 examples from https://github.com/ros2/examples/tree/jazzy.
+This repo contains ROS2 (jazzy) examples from https://github.com/ros2/examples/tree/jazzy.
 A top-level CMakeLists.txt is provided that allows opening the examples in CLion, 
 which adds code-completion and insights for both the Python and C++ source. 
 To make Python work, you need to assign an interpreter. On Windows you should use the one that comes with ROS2 (`C:\pixi_ws\.pixi\envs\default\python.exe`).
