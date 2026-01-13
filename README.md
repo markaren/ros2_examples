@@ -10,6 +10,7 @@ A `colcon_build` target is also added, which may be used to build the ROS2 packa
 ## Running the examples
 
 > Start by building the workspace with colcon (see above). Do this each time you make changes to the workspace.
+Note: In each new terminal you must first run `./install/setup*` (no extension on linux, `.bat` in cmd and `.ps1` in PowerShell) to source the workspace.
 
 In one terminal run:
 ```bash
@@ -28,5 +29,4 @@ ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function
 ros2 run examples_rclpy_minimal_subscriber subscriber_member_function
 ```
 
-
-In each terminal you must first run `./install/setup.*` (.bash on linux, .bat in cmd and .ps1 in PowerShell) to source the workspace.
+There are many other examples to try out. Observe the package and executable names from the underlying configuration.
